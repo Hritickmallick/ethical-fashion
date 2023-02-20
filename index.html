@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dela+Gothic+One&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="background"></div>
+    <div id="noise-layer"></div>
+    <svg viewBox='0 0 500 500' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg' style='display: none;'>
+        <filter id='noiseFilter'>
+            <feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='2' stitchTiles='stitch' />
+        </filter>
+    </svg>
+
+    <div class="section-header-banner">
+        <div class="container">
+            <div class="section-header">
+                <div class="header">
+                    <div class="header-col">
+                        <div id="my-side-nav-bar" class="side-nav-bar">
+                            <a href="javascript:void(0)" class="close-btn" onclick="closenav()"><i
+                                    class="fa-solid fa-xmark"></i></a>
+                            <a href="#">About</a>
+                            <a href="#">PRODUCTS</a>
+                            <a href="#">SERVICES</a>
+                            <a href="#">CONTACT US</a>
+                            <a href="#">TERMS AND CONDITIONS</a>
+                        </div>
+                        <div id="main-nav-bar" class="header-col-row">
+                            <button class="open-btn" onclick="opennav()"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                        <div class="header-col-row header-icons">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-banner">
+                <div class="banner-col">
+                    <div class="banner-col-row banner-col-row-1">
+
+                        <div class="banner-article">
+                            <p>consious style and design production that doesn't harm working conditions, the
+                                environment and animals</p>
+                        </div>
+                        <div class="banner-link">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+
+                    </div>
+                    <div class="banner-col-row banner-col-row-2">
+                        <img src="image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept5.jpg"
+                            class="banner-image">
+                    </div>
+                    <div class="banner-col-row banner-col-row-3">
+                        <span>01</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="section-tag-line">
+                <div class="section-banner-tag-line tag-line-1">
+
+                    <span class="logo-size">ethical</span>
+                    <span class="logo-2 logo-size">fashion</span>
+
+                </div>
+            </div>
+            <div class="section-tag-line">
+                <div class="section-banner-tag-line tag-line-2">
+
+                    <span class="logo-size">ethical</span>
+                    <span class="logo-2 logo-size">fashion</span>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="view-more-link"><i class="fa-solid fa-arrow-down"></i></a>
+    </div>
+
+    <div class="section-features">
+        <div class="container">
+            <div class="features-box">
+                <div class="features-box-col features-box-col-1">
+                    <div class="features-box-col-1-row">
+                        <!--<i class="fa-thin fa-plus"></i>
+                        <i class="fa-thin fa-plus"></i>-->
+                    </div>
+                    <div class="features-box-col-row-2">
+                        <img src="image/brush.png">
+                    </div>
+                </div>
+                <div class="features-box-col features-box-col-2">
+                    <div class="features-heading-content">
+                        <div class="features-heading">
+                            <h1>a sustainable<br> shopping experiance</h1>
+                        </div>
+                        <div class="features-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, delectus
+                                aliquam
+                                sequi quia obcaecati rem ullam minus deleniti? Ipsam veritatis a cupiditate
+                                facilis
+                                rem
+                                aspernatur provident nobis velit repellendus! Itaque?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-box-col features-box-col-3">
+                    <img src="image/brush.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-collection">
+        <div class="collection-radial-effects">
+            <div class="container">
+                <div class="collection-box-header">
+                    <span class="span-1">Our</span>
+                    <span class="span-2">Shop</span>
+                </div>
+                <div class="collection-box">
+                    <div class="collection-box-left">
+                        <div class="collection-box-col-1">
+                            <div class="collection-box-img">
+                                <img src="image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept.jpg"
+                                    class="model-images">
+                            </div>
+                            <div class="collection-box-description">
+                                <div class="product-name-price">
+                                    <p class="product-name">STYLE A</p>
+                                    <p class="product-price">$99.90</p>
+                                </div>
+                                <div class="product-purchase-link">
+                                    <a href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-box-col-1">
+                            <div class="collection-box-img collection-box-img-radial_effects">
+                                <img src="image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept1.jpg"
+                                    class="model-images">
+                            </div>
+                            <div class="collection-box-description">
+                                <div class="product-name-price">
+                                    <p class="product-name">STYLE A</p>
+                                    <p class="product-price">$99.90</p>
+                                </div>
+                                <div class="product-purchase-link">
+                                    <a href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-box-right">
+                        <div class="collection-box-col-1">
+                            <div class="collection-box-img">
+                                <img src="image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept2.jpg"
+                                    class="model-images">
+                            </div>
+                            <div class="collection-box-description">
+                                <div class="product-name-price">
+                                    <p class="product-name">STYLE A</p>
+                                    <p class="product-price">$99.90</p>
+                                </div>
+                                <div class="product-purchase-link">
+                                    <a href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection-box-col-1">
+                            <div class="collection-box-img">
+                                <img src="image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept3.jpg"
+                                    class="model-images">
+                            </div>
+                            <div class="collection-box-description">
+                                <div class="product-name-price">
+                                    <p class="product-name">STYLE A</p>
+                                    <p class="product-price">$99.90</p>
+                                </div>
+                                <div class="product-purchase-link">
+                                    <a href="#">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="collection-link">
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-down"></i></a>
+                <a href="#" class="collection-view-more-link">View More</a>
+            </div>
+
+
+        </div>
+        <div class="collection-radial-effects-2">
+
+        </div>
+    </div>
+
+    <div class="section-review">
+        <div class="container">
+            <div class="review-header">
+                <div class="review-header-tagline">
+                    <h2>Changing the world piece by piece</h2>
+                </div>
+                <div class="review-header-side-img">
+                    <img src="image/flower.png">
+                </div>
+            </div>
+            <div class="review-col">
+                <div class="review-col-row">
+                    <div class="review-comment">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, porro repellendus
+                        explicabo
+                        accusantium ea aliquam ipsum laudantium saepe aliquid ratione alias. Facere corrupti,
+                        iste
+                        labore sint similique vero autem sed?
+                    </div>
+                    <div class="review-user">
+                        <p>Kristen Han</p>
+                    </div>
+
+                </div>
+                <div class="review-col-row">
+                    <div class="review-comment">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, porro repellendus
+                        explicabo
+                        accusantium ea aliquam ipsum laudantium saepe aliquid ratione alias. Facere corrupti,
+                        iste
+                        labore sint similique vero autem sed?
+                    </div>
+                    <div class="review-user">
+                        <p>Kristen Han</p>
+                    </div>
+                </div>
+                <div class="review-col-row">
+                    <div class="review-comment">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, porro repellendus
+                        explicabo
+                        accusantium ea aliquam ipsum laudantium saepe aliquid ratione alias. Facere corrupti,
+                        iste
+                        labore sint similique vero autem sed?
+                    </div>
+                    <div class="review-user">
+                        <p>Kristen Han</p>
+                    </div>
+                </div>
+                <div class="review-col-row">
+                    <div class="review-comment">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, porro repellendus
+                        explicabo
+                        accusantium ea aliquam ipsum laudantium saepe aliquid ratione alias. Facere corrupti,
+                        iste
+                        labore sint similique vero autem sed?
+                    </div>
+                    <div class="review-user">
+                        <p>Kristen Han</p>
+                    </div>
+                </div>
+                <div class="review-footer-side-img">
+                    <img src="image/flower.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-category">
+
+        <div class="category-col">
+            <div class="category-col-row-1 category-col-row">
+                <div class="category-info">
+                    <div class="category-name">
+                        <p>CLASSICS</p>
+                    </div>
+                    <div class="category-intro">
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad soluta nulla veritatis.
+                        </p>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col-row-2 category-col-row">
+                <div class="category-info">
+                    <div class="category-name">
+                        <p>CLASSICS</p>
+                    </div>
+                    <div class="category-intro">
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad soluta nulla veritatis.
+                        </p>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col-row-3 category-col-row">
+                <div class="category-info">
+                    <div class="category-name">
+                        <p>CLASSICS</p>
+                    </div>
+                    <div class="category-intro">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad soluta nulla veritatis.
+                        </p>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col-row-4 category-col-row">
+                <div class="category-info">
+                    <div class="category-name">
+                        <p>CLASSICS</p>
+                    </div>
+                    <div class="category-intro">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad soluta nulla veritatis.
+                        </p>
+                    </div>
+                    <div class="category-link">
+                        <a href="#">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="section-designers">
+        <div class="container">
+            <div class="designers-header">
+                <p>designer</p>
+            </div>
+        </div>
+        <div class="designer-names-box">
+            <div class="designer-names-5">
+                <p class="first-name">KAYE HANNEN</p>
+                <P>MARRY BRUCE</P>
+                <P>ANN HOLLAND</P>
+                <P>TIM CURRY</P>
+                <P>LAUVE HANSON</P>
+            </div>
+            <div class="designer-names-4">
+                <p class="first-name">KAYE HANNEN</p>
+                <P>MARRY BRUCE</P>
+                <P>ANN HOLLAND</P>
+                <P>TIM CURRY</P>
+            </div>
+            <div class="designer-names-5">
+                <p class="first-name">KAYE HANNEN</p>
+                <P>MARRY BRUCE</P>
+                <P>ANN HOLLAND</P>
+                <P>TIM CURRY</P>
+                <P>LAUVE HANSON</P>
+            </div>
+            <div class="designer-names-4">
+                <p class="first-name">KAYE HANNEN</p>
+                <P>MARRY BRUCE</P>
+                <P>ANN HOLLAND</P>
+                <P>TIM CURRY</P>
+            </div>
+        </div>
+        <div class="designers-link">
+            <a href="#">Our Team</a>
+        </div>
+    </div>
+
+    <div class="section-newsletter">
+        <div class="newsletter-col">
+            <div class="newsletter-col-row newsletter-col-row-content">
+                <div class="newsletter-col-row-1">
+                    <img src="image/brush.png">
+                </div>
+                <div class="newsletter-col-row-2">
+                    <p>join our newsletter</p>
+                </div>
+                <div class="newsletter-col-row-3">
+                    <input type="text" id="your-email" name="your-email" value="your-email">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="newsletter-col-row-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit aperiam deserunt
+                        earum
+                        autem repellendus exercitationem. Unde eius voluptates ullam quas cupiditate assumenda
+                        suscipit rerum ad. Corporis aspernatur cum facere.</p>
+                </div>
+                <div class="newsletter-col-row-5">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="newsletter-col-row newsletter-col-row-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="section-footer">
+        <div class="container">
+            <div class="footer-box">
+                <div class="footer-box-row">
+                    <div class="footer-box-row-header">
+                        <p>OUR BRAND</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">New designs</a></li>
+                        <li><a href="#">Weekly insights</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Stay in the Loop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box-row">
+                    <div class="footer-box-row-header">
+                        <p>OUR BRAND</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">New designs</a></li>
+                        <li><a href="#">Weekly insights</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Stay in the Loop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box-row">
+                    <div class="footer-box-row-header">
+                        <p>OUR BRAND</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">New designs</a></li>
+                        <li><a href="#">Weekly insights</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Stay in the Loop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box-row">
+                    <div class="footer-box-row-header">
+                        <p>OUR BRAND</p>
+                    </div>
+                    <ul>
+                        <li><a href="#">New designs</a></li>
+                        <li><a href="#">Weekly insights</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Stay in the Loop</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="section-footer-btm">
+                <p>copyright 2021 Fashion with Ethics All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function opennav() {
+            document.getElementById("my-side-nav-bar").style.width = "250px";
+            document.getElementById("main-nav-bar").style.marginLeft = "250px";
+        }
+
+        function closenav() {
+            document.getElementById("my-side-nav-bar").style.width = "0";
+            document.getElementById("main-nav-bar").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>
