@@ -351,11 +351,15 @@ a {
 .span-1 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: #d7ef15;
+    margin: 0;
+    display: inline-block;
 }
 
 .span-2 {
     -webkit-text-fill-color: #d7ef15;
     -webkit-text-stroke-color: #d7ef15;
+    margin: 0;
+    display: inline-block;
 }
 
 .collection-box {
@@ -668,7 +672,7 @@ background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit).jpg");
     z-index: -1;
 }
 
-.designers-header>p {
+.designers-header>h4 {
     text-align: center;
     font-size: 120px;
     font-weight: 900;
@@ -819,7 +823,7 @@ background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit).jpg");
     font-family: 'Dela Gothic One';
 }
 
-.newsletter-col-row-2>p {
+.newsletter-col-row-2>h4 {
     margin: 0;
 }
 
@@ -1292,7 +1296,7 @@ background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit).jpg");
         width: 100%;
     }
 
-    .designers-header>p {
+    .designers-header>h4 {
         font-size: 70px;
     }
 
@@ -1395,7 +1399,7 @@ background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit).jpg");
         font-size: 15px;
     }
 
-    .designers-header>p {
+    .designers-header>h4 {
         font-size: 50px;
         -webkit-text-stroke-width: 1px;
     }
