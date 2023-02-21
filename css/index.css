@@ -142,7 +142,7 @@ a {
 }
 
 .banner-col-row-3 {
-    background: url(image/flower.png);
+    background: url("../image/flower.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -283,17 +283,23 @@ a {
 .features-box-col-row-2 {
     width: 50%;
     text-align: right;
+    position: absolute;
+    top: 25px;
+    right: -137px;
+ 
 }
 
-.features-box-col-row-2>img {
-    margin-right: -150px;
+.features-box-col-2{
+    padding-bottom: 150px;
 }
 
 .features-box-col-3 {
     text-align: end;
     transform: scaleX(-1);
-    margin-left: -100px;
-    padding-top: 50px;
+ position: absolute;
+ bottom: -6px;
+ left:-150px;
+    padding: 50px 0px;
 }
 
 .features-heading {
@@ -567,7 +573,7 @@ a {
 }
 
 .category-col-row-1 {
-    background: url(image/Place-Your-Image-Here-\(Double-Click-to-Edit\).jpg);
+background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
@@ -577,7 +583,7 @@ a {
 
 .category-col-row-2 {
 
-    background: url(image/Place-Your-Image-Here-\(Double-Click-to-Edit\)1.jpg);
+    background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit)1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
@@ -585,7 +591,7 @@ a {
 }
 
 .category-col-row-3 {
-    background: url(image/Place-Your-Image-Here-\(Double-Click-to-Edit\)2.jpg);
+    background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit)2.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -595,7 +601,7 @@ a {
 }
 
 .category-col-row-4 {
-    background: url(image/Place-Your-Image-Here-\(Double-Click-to-Edit\)3.jpg);
+    background: url("../image/Place-Your-Image-Here-(Double-Click-to-Edit)3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
@@ -771,7 +777,7 @@ a {
 }
 
 .newsletter-col-row-img {
-    background: url(image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept4.jpg);
+    background: url("../image/elegant-female-model-sitting-armchair-jacket-suit-new-feminity-concept4.jpg");
     background-size: cover;
     max-width: 100%;
     position: relative;
@@ -1205,12 +1211,17 @@ a {
     }
 
     .features-box-col-1{
-        padding-bottom: 30px;
+        padding-bottom: 50px;
+    }
+
+    .features-box-col-row-2{
+        right: -10px;
     }
 
     .features-box-col-3{
-        margin-left: -220px;
+        left: -220px;
     }
+
 
     .banner-col {
         flex-direction: column-reverse;
@@ -1331,7 +1342,7 @@ a {
     }
 
     .features-box-col-1{
-        padding-bottom: 20px;
+        padding-bottom: 155px;
         flex-wrap: wrap;
     }
 
@@ -1343,10 +1354,12 @@ a {
 
     .features-box-col-row-2{
         width: 100%;
+        right: -76px;
+        top: 115px;
     }
 
     .features-box-col-3{
-        margin-left: -10px;
+              left:-100px
     }
 
 
